@@ -1,5 +1,8 @@
 #Exception handling helps in preventing errors in the execution of the code, you can create them 
 # to limit or prevent wrong inputs from being included in the code
+
+x = 29
+
 try:
     print(x)
 except NameError:
@@ -11,7 +14,7 @@ except NameError:
 else:
     print("Everything went wrong")
     
-x = -1
+x = 6
 
 if x < 0:
     raise Exception("Sorry, no numbers below zero")          
